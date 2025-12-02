@@ -888,9 +888,9 @@ class AliPlayerWidgetController {
   /// [AlphaRenderMode] The target alphaRender mode.
   Future<void> setAlphaRenderMode(int alphaRenderModel) async {
     await _aliPlayer.setAlphaRenderMode(alphaRenderModel);
-    int newValue = await _aliPlayer.getAlphaRenderMode();
-
-    logi("setMirrorMode: $alphaRenderModel, real: $newValue");
+    // int newValue = await _aliPlayer.getAlphaRenderMode();
+    //
+    // logi("setMirrorMode: $alphaRenderModel, real: $newValue");
   }
 
   /// 设置旋转角度
